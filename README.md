@@ -418,6 +418,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by the AI Lead Scoring Team**
+**Built with ❤️ by Myself**
 
 For questions or support, please contact us at raifmondal@icloud.com or open an issue on GitHub.
