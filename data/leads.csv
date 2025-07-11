@@ -1,0 +1,21 @@
+lead_id,property_listing_views,mortgage_calc_time,contact_forms,emails_opened,emails_sent,avg_whatsapp_response_hours,broker_messages_per_week,searches_per_week,saved_searches,favorited_count,price_searches,annual_income,employment_type,credit_score,age,household_size,marital_status,job_level,industry,company_employees,preferred_property_type,loan_inquiry_amount,last_activity,monthly_visits,weekly_searches,engagement_last_7d,engagement_prev_7d,area_price_change_3m,local_inventory_months,current_interest_rate,is_high_intent
+lead_001,15,300,2,8,10,2,5,12,3,8,15,85000,Full-time,750,32,2,Married,Senior,Technology,500,Single Family,450000,2024-01-15,25,12,85,75,0.03,2.5,7.2,1
+lead_002,5,60,0,2,5,24,1,3,0,1,3,45000,Part-time,620,28,1,Single,Individual,Retail,50,Condo,250000,2024-01-10,8,3,20,30,0.02,4.2,7.1,0
+lead_003,25,450,3,12,15,1,8,20,5,12,25,120000,Full-time,780,38,4,Married,Manager,Finance,1000,Single Family,650000,2024-01-20,45,20,120,95,0.05,1.8,7.3,1
+lead_004,8,120,1,4,8,12,2,7,1,3,8,62000,Full-time,680,29,2,Married,Individual,Healthcare,200,Townhouse,350000,2024-01-12,15,7,45,40,0.01,3.5,7.0,0
+lead_005,20,380,2,10,12,3,6,15,4,10,18,95000,Full-time,720,35,3,Married,Senior,Engineering,750,Single Family,520000,2024-01-18,35,15,95,80,0.04,2.2,7.4,1
+lead_006,3,30,0,1,3,48,0,2,0,0,1,35000,Unemployed,550,45,1,Single,Individual,Other,0,Apartment,180000,2024-01-08,5,2,10,15,0.01,5.0,7.0,0
+lead_007,18,350,2,9,11,2,7,18,3,9,20,110000,Full-time,760,42,2,Married,Manager,Technology,800,Single Family,580000,2024-01-22,40,18,110,90,0.06,1.5,7.5,1
+lead_008,6,90,0,3,6,18,1,5,1,2,5,52000,Full-time,640,26,1,Single,Individual,Education,100,Condo,280000,2024-01-09,12,5,30,35,0.02,4.0,7.1,0
+lead_009,22,420,3,11,14,1,8,22,4,11,22,130000,Full-time,790,40,3,Married,Senior,Finance,1200,Single Family,700000,2024-01-25,50,22,130,100,0.07,1.2,7.6,1
+lead_010,4,45,0,2,4,36,1,3,0,1,2,38000,Part-time,580,24,1,Single,Individual,Service,25,Apartment,200000,2024-01-07,6,3,15,20,0.01,4.8,6.9,0
+lead_011,16,320,2,7,9,3,5,14,3,7,16,88000,Full-time,740,33,2,Married,Individual,Healthcare,400,Townhouse,480000,2024-01-16,30,14,80,70,0.03,2.8,7.3,1
+lead_012,7,110,1,3,7,15,2,6,1,3,7,58000,Full-time,660,30,2,Married,Individual,Manufacturing,150,Condo,320000,2024-01-11,14,6,35,40,0.02,3.8,7.2,0
+lead_013,24,480,3,13,16,1,9,25,5,13,24,140000,Full-time,800,45,4,Married,Manager,Technology,1500,Single Family,750000,2024-01-28,55,25,140,110,0.08,1.0,7.7,1
+lead_014,5,75,0,2,5,30,1,4,0,1,3,42000,Part-time,600,27,1,Single,Individual,Retail,40,Apartment,220000,2024-01-06,8,4,18,25,0.01,4.5,6.9,0
+lead_015,19,360,2,8,10,2,6,16,3,8,19,102000,Full-time,770,36,3,Married,Senior,Engineering,900,Single Family,560000,2024-01-19,38,16,100,85,0.05,2.0,7.4,1
+lead_016,9,140,1,4,8,10,3,8,2,4,9,65000,Full-time,700,31,2,Married,Individual,Education,250,Townhouse,380000,2024-01-13,18,8,50,45,0.02,3.2,7.2,0
+lead_017,26,520,4,14,18,1,10,28,6,14,26,150000,Full-time,820,48,4,Married,Manager,Finance,2000,Single Family,800000,2024-01-30,60,28,150,120,0.09,0.8,7.8,1
+lead_018,6,80,0,2,6,24,1,4,0,2,4,48000,Full-time,630,25,1,Single,Individual,Service,60,Condo,260000,2024-01-05,10,4,22,28,0.01,4.3,6.8,0
+lead_019,21,400,3,10,13,2,7,19,4,10,21,115000,Full-time,780,39,3,Married,Senior,Technology,1100,Single Family,620000,2024-01-24,42,19,115,95,0.06,1.7,7.5,1
+lead_020,8,125,1,3,7,14,2,7,1,3,8,60000,Full-time,680,32,2,Married,Individual,Healthcare,300,Townhouse,360000,2024-01-14,16,7,40,42,0.02,3.6,7.1,0

@@ -1,0 +1,114 @@
+# AI Lead Scoring Engine Configuration
+
+# Model Configuration
+model:
+  primary_model: "xgboost"
+  reranker_model: "sentence-transformers/all-MiniLM-L6-v2"
+  ensemble_models: ["xgboost", "lightgbm", "neural_network"]
+  target_auc: 0.85
+  target_precision_at_k: 0.70
+  retrain_frequency: "weekly"
+  
+# Data Sources
+data_sources:
+  behavioral:
+    - website_engagement
+    - communication_patterns
+    - search_behavior
+  demographic:
+    - financial_profile
+    - life_stage
+    - professional_background
+  public:
+    - market_context
+    - social_signals
+  third_party:
+    - credit_financial
+    - external_enrichment
+
+# Feature Engineering
+features:
+  behavioral_features:
+    - page_views_property_listings
+    - time_spent_mortgage_calculator
+    - email_open_rate
+    - whatsapp_response_time
+    - property_search_frequency
+    - saved_searches_count
+  demographic_features:
+    - income_level
+    - employment_status
+    - age_group
+    - family_size
+    - job_title_seniority
+  interaction_features:
+    - income_x_search_frequency
+    - age_x_property_type
+    - employment_x_loan_amount
+  time_features:
+    - recency_last_activity
+    - frequency_monthly_visits
+    - trend_engagement_score
+
+# Database Configuration
+database:
+  postgresql:
+    host: "localhost"
+    port: 5432
+    database: "lead_scoring"
+    user: "postgres"
+    password: "${POSTGRES_PASSWORD}"
+    pool_size: 20
+    max_overflow: 30
+  
+  redis:
+    host: "localhost"
+    port: 6379
+    db: 0
+    password: "${REDIS_PASSWORD}"
+    max_connections: 100
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  max_concurrent_requests: 1000
+  timeout: 0.3  # 300ms SLA
+  rate_limit: 10000  # requests per minute
+
+# Monitoring
+monitoring:
+  drift_threshold: 0.1
+  performance_alert_threshold: 0.05
+  model_refresh_threshold: 0.02
+  metrics_retention_days: 90
+  
+# Compliance
+compliance:
+  data_retention_days: 365
+  consent_required: true
+  purpose_limitation: true
+  data_minimization: true
+  audit_logging: true
+
+# Kafka Configuration
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topics:
+    behavioral_events: "behavioral-events"
+    demographic_updates: "demographic-updates"
+    model_predictions: "model-predictions"
+  consumer_group: "lead-scoring-engine"
+
+# Deployment
+deployment:
+  environment: "production"
+  replicas: 3
+  cpu_limit: "2000m"
+  memory_limit: "4Gi"
+  autoscaling:
+    enabled: true
+    min_replicas: 2
+    max_replicas: 10
+    target_cpu: 70
