@@ -397,7 +397,7 @@ docker-compose restart postgres
 - **Documentation**: Check the docs/ directory
 - **Issues**: Open a GitHub issue
 - **Discord**: Join our Discord community
-- **Email**: support@yourcompany.com
+- **Email**: raifmondal@icloud.com
 
 ### Professional Support
 - **Training**: Available for team training
@@ -420,4 +420,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ by the AI Lead Scoring Team**
 
-For questions or support, please contact us at support@yourcompany.com or open an issue on GitHub.
+For questions or support, please contact us at raifmondal@icloud.com or open an issue on GitHub.
